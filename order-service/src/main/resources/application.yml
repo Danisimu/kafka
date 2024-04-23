@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+app:
+  kafka:
+    listenTopic: "order-status-topic"
+    listenGroupId: "order-group-id"
+
+    sendTopic: "order-topic"
+
+
